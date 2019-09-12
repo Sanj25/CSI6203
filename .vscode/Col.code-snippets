@@ -1,0 +1,59 @@
+{
+	
+		"Black Colour": {
+			"prefix":"black",
+			"body": [
+			"Black='\\033[30m'"						
+			],
+			"description": "Black colour added",
+		},
+		"Red Colour": {
+			"prefix":"red",
+			"body": [
+			"Red='\\033[31m'"						
+			],
+			"description": "Red colour added",
+		},
+		"Green Colour": {
+			"prefix":"Green",
+			"body": [
+			"Green='\\033[32m'"						
+			],
+			"description": "Green colour added",
+		},
+		"Brown Colour": {
+			"prefix":"brown",
+			"body": [
+			"Brown='\\033[33m'"						
+			],
+			"description": "Brown colour added",
+		},
+		"Blue Colour": {
+			"prefix":"blue",
+			"body": [
+			"Blue='\\033[34m'"						
+			],
+			"description": "Blue colour added",
+		},
+		"Purple Colour": {
+			"prefix":"purple",
+			"body": [
+			"Black='\\033[35m'"						
+			],
+			"description": "Purple colour added",
+		},
+		"Cyan Colour": {
+			"prefix":"cyan",
+			"body": [
+			"cyan='\\033[36m'"						
+			],
+			"description": "Cyan colour added",
+		},
+		"Grey Colour": {
+			"prefix":"grey",
+			"body": [
+			"Black='\\033[37m'"						
+			],
+			"description": "Grey colour added",
+		},
+}

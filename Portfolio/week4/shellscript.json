@@ -1,0 +1,65 @@
+{
+	// Place your snippets for shellscript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+
+	"Black Colour": {
+		"prefix":"black",
+		"body": [
+		"Black='\\033[30m'"						
+		],
+		"description": "Black colour added",
+	},
+	"Red Colour": {
+		"prefix":"red",
+		"body": [
+		"Red='\\033[31m'"						
+		],
+		"description": "Red colour added",
+	},
+	"Green Colour": {
+			"prefix":"Green",
+			"body": [
+			"Green='\\033[32m'"						
+			],
+			"description": "Green colour added",
+		},
+	"Brown Colour": {
+				"prefix":"brown",
+				"body": [
+				"Brown='\\033[33m'"						
+				],
+				"description": "Brown colour added",
+			},
+	"Blue Colour": {
+					"prefix":"blue",
+					"body": [
+					"Blue='\\033[34m'"						
+					],
+					"description": "Blue colour added",
+				},
+	"Purple Colour": {
+						"prefix":"purple",
+						"body": [
+						"Black='\\033[35m'"						
+						],
+						"description": "Purple colour added",
+					},
+	"Cyan Colour": {
+							"prefix":"cyan",
+							"body": [
+							"cyan='\\033[36m'"						
+							],
+							"description": "Cyan colour added",
+						},
+
+	"Grey Colour": {
+								"prefix":"grey",
+								"body": [
+								"Black='\\033[37m'"						
+								],
+								"description": "Grey colour added",
+							},
+}
