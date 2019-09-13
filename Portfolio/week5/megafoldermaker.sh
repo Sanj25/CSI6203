@@ -1,4 +1,5 @@
-#!/bin/bash # Shebang instructs the interpreter to execute the script.
+#!/bin/bash 
+# Shebang instructs the interpreter to execute the script.
 if (( $#!=2 )); then # Checks if the arguments are not equal to 2.
 	echo "Error, provide two number" && exit 1 # Displays Error message and exits with exit 1 code.
 fi # Finishes the if loop.

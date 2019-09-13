@@ -1,4 +1,5 @@
-#!/bin/bash #Shebang instructs the interpreter to execute the script.
+#!/bin/bash 
+#Shebang instructs the interpreter to execute the script.
 CHKFolderNameValid() 
 {
 read -p "Enter the foldername you want to copy" folderName # Prompts the user for folder name and reads user input.

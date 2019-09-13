@@ -38,7 +38,7 @@
 		"Purple Colour": {
 			"prefix":"purple",
 			"body": [
-			"Black='\\033[35m'"						
+			"Purple='\\033[35m'"						
 			],
 			"description": "Purple colour added",
 		},
@@ -52,7 +52,7 @@
 		"Grey Colour": {
 			"prefix":"grey",
 			"body": [
-			"Black='\\033[37m'"						
+			"Purple='\\033[37m'"						
 			],
 			"description": "Grey colour added",
 		},

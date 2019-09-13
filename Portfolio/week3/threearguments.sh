@@ -1,4 +1,5 @@
-#!/bin/bash # Shebang tells the interpreter to execute the script.
+#!/bin/bash 
+# Shebang tells the interpreter to execute the script.
 # Prompt the user to enter arguments.
 echo "Enter three arguments" $#
 # Condition to check if arguments are  not equal to three.

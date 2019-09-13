@@ -1,16 +1,33 @@
 Black='\033[30m'
 Red='\033[31m'
-echo -e "1.${Red} Create a folder" # Outputs the string that passed.
-echo "2. List files in a folder."# Output the string.
-echo "3. Copy a folder." # Output the string.
-echo "4. Save a Password." # Output the string.
-echo "5. Read a Password."# Displays output message.
-echo "6. Print Newest File."# Output the string.
-echo "7. Calculator. "# Output the string.
-echo "8. Create Multiple Directories." # Output the string.
-echo "9. Print every third Number between 1 to 100000."# Output the string.
-echo "10. Read the text file contents whether is file or directory."# Output string message.
-echo "11. Ping the google and gets response as the URL you type." # Output string message that passed.
+Blue='\033[34m'
+Green='\033[32m'
+cyan='\033[36m'
+Brown='\033[33m'
+Black='\033[35m'
+echo -e "1.${Red} Create a folder ${Clear}" 
+# Outputs the string that passed.
+echo -e "2.${Green} List files in a folder${Clear}."
+# Output the string.
+echo -e "3.${Purple}Copy a folder.${Clear}" 
+# Output the string.
+echo -e "4.${Brown} Save a Password.${Clear}" 
+# Output the string.
+echo -e "5.${cyan} Read a Password.${Clear}"
+# Displays output message.
+echo -e "6.${Brown} Print Newest File${Clear}"
+# Output the string.
+echo -e "7.${Red} Calculator. ${Clear}"
+# Output the string.
+echo -e "8.${cyan} Create Multiple Directories.${Clear}" 
+# Output the string.
+echo -e "9.${Blue} Print every third Number between 1 to 1000.${Clear}"
+# Output the string.
+echo -e "10.${cyan} Read the text file contents whether is file or directory.${Clear}"
+# Output string message.
+echo -e "11.${Brown} Ping the google and gets response as the URL you type.${Clear}"
+ # Output string message that passed.
+echo " Type any number from 1 to 11 :"
 read ep # Read the User input.
 case $ep in # Execute the case expression accoring to input
 
@@ -22,9 +39,9 @@ case $ep in # Execute the case expression accoring to input
      ;;
      
   3) read -p "type the name of the folder you like to copy: " folderName
-     if [ -d "$folderName" ];then
+     if [ -d "$folderName" ];then # Checks if is Directory.
      read -p "type the name of the destination folder: " newFolderName
-     cp -r "$folderName" "$newFolderName"
+     cp -r "$folderName" "$newFolderName" # Copy one folder to another.
      else
      echo "I couldn't find that folder" "$folderName"
      fi
@@ -33,22 +50,22 @@ case $ep in # Execute the case expression accoring to input
      # Create a folder/directory with foldername inputted by user.
      mkdir "$foldername"
      # Prompt user for password and reads user input.
-     read -s -p "Enter the secret Password: " minepassword  
-     echo $minepassword > passw.txt
+     read -s -p "Enter the secret Password: " minepassword  # Reads user input.
+     echo $minepassword > passw.txt # Save password in text file.
      ;;
 
  5) read -p " Enter the file name you want to read :" spassword
-     if [ -f "$spassword" ]; then
-      cat "$spassword"
+     if [ -f "$spassword" ]; then # Check condition if it is file.
+      cat "$spassword" # Display the contents of file.
       else
        echo " Error : File Not Exists"
       fi
       ;;
 
   6) echo " Please Enter three file Names" 
-     read -p " Enter the First File Name : " a
-     read -p " Enter the Second File Name: "  b
-     read -p " Enter the Third File Name: "  c
+     read -p " Enter the First File Name : " a # Reads user input.
+     read -p " Enter the Second File Name: "  b # Reads user input.
+     read -p " Enter the Third File Name: "  c # Reads user input.
 
    if [ -f "$a" ] && [ -f "$b" ] && [ -f "$c" ]; then
 # Display the message if all are files.  
@@ -68,7 +85,7 @@ case $ep in # Execute the case expression accoring to input
    fi 
    ;;
 
-7) Black='\033[30m' # Different Colour and codes.
+7) Black='\033[30m' # Specifying Different Colour and codes.
    Green='\033[32m'
    Brown='\033[33m'
    Blue='\033[34m'
