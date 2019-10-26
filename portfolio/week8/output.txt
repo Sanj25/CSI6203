@@ -1,0 +1,5 @@
+    \033[31mERROR:\033[0m $1
+    [ $REPLY -gt 42 ] && Too High! 
+    [ $REPLY -lt 42 ] && Too low!   
+[ $REPLY -eq 42 ] && Correct!
+    [ $REPLY -eq 42 ] && Correct!
