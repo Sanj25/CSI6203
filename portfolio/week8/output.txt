@@ -1,5 +1,4 @@
     \033[31mERROR:\033[0m $1
-    [ $REPLY -gt 42 ] && Too High! 
-    [ $REPLY -lt 42 ] && Too low!   
-[ $REPLY -eq 42 ] && Correct!
-    [ $REPLY -eq 42 ] && Correct!
+    [ $REPLY -gt 42 ] && TOO HIGH!
+    [ $REPLY -lt 42 ] && TOO LOW!
+[ $REPLY -eq 42 ] && Right! # Check if input is equal to 42.

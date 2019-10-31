@@ -1,3 +1,5 @@
-This is Bash scripting unit CSI6203
+This is scripting languages unit CSI6203.
 The next line contains the word Linux
-Linux is one of the powerful operating system and open source.
+The next line contains the word Linux
+The next line contains word linux.
+Linux is powerful OS and open source.
